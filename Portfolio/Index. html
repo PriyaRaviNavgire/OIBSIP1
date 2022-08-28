@@ -1,1 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#"><span> HOME</span></a>
+                    </li>
+                    <li>
+                        <a href="#page2"><span> ABOUT ME</span></a>
+                    </li>
+                    <li>
+                        <a href="#page3"><span> PORTFOLIO </span></a>
+                    </li>
+                    <li>
+                        <a href="#page4"><span> CONTACT </span></a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="hero" id="hero">
+                <h1>I'm <span class="auto-type"></span></h1>
+                <p>HOLA!, If you are looking for a web designer and developer, here is a portfolio in case.</p>
+
+                <a href="#">Download CV</a>
+                <a href="#page4">Contact Me</a>
+            </div>
+
+            <img src="./ apj abdul kalam image.jpg" class="image" alt="">
+
+            <div class="socials">
+                <ul>
+                    <li><a href="#">
+                            <ion-icon name="logo-instagram"></ion-icon>
+                        </a></li>
+                    <li><a href="#">
+                            <ion-icon name="logo-linkedin"></ion-icon>
+                        </a></li>
+                    <li><a href="https://github.com/PriyaRaviNavgire" target="_blank">
+                            <ion-icon name="logo-github"></ion-icon>
+                        </a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="page2" id="page2">
+            <img src="./avatar.jpg" class="illustration" alt="">
+            <div class="aboutme">
+                <h3>About Me</h3>
+                <p><span>I'm Priya Navgire nd I am currently studying in third year in computer science B.Tech. I am
+                        interested in Frontend Web development, UI/UX Designing, Programming and other tech
+                        stuff.</span> </p>
+            </div>
+            <div class="skills">
+                <h3>Skills</h3>
+                <ul>
+                    <li> HTML5
+                        <div class="progress-bar">
+                            <div class="overlay1"> 95%</div>
+                        </div>
+                    </li>
+                    <li>CSS3 <div class="progress-bar">
+                            <div class="overlay2">90%</div>
+                        </div>
+                    </li>
+                    <li>Javascript ES6 <div class="progress-bar">
+                            <div class="overlay3">80%</div>
+                        </div>
+                    </li>
+                    <li>Bootstrap <div class="progress-bar">
+                            <div class="overlay4">80%</div>
+                        </div>
+                    </li>
+                    <li>Figma <div class="progress-bar">
+                            <div class="overlay5">95%</div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+        <svg id="visual" viewBox="0 50 900 70" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+            <path
+                d="M0 51L21.5 63.5C43 76 86 101 128.8 103.7C171.7 106.3 214.3 86.7 257.2 79.5C300 72.3 343 77.7 385.8 85.3C428.7 93 471.3 103 514.2 110.5C557 118 600 123 642.8 112.5C685.7 102 728.3 76 771.2 68.5C814 61 857 72 878.5 77.5L900 83L900 0L878.5 0C857 0 814 0 771.2 0C728.3 0 685.7 0 642.8 0C600 0 557 0 514.2 0C471.3 0 428.7 0 385.8 0C343 0 300 0 257.2 0C214.3 0 171.7 0 128.8 0C86 0 43 0 21.5 0L0 0Z"
+                fill="rgb(224, 249, 219)" stroke-linecap="round" stroke-linejoin="miter"></path>
+        </svg>
+
+
+        <div class="heading" id="page3">
+            <h3>My Projects</h3>
+            <a href="https://github.com/PriyaRaviNavgire"class="view" target="_blank">Explore all -></a>
+        </div>
+
+        <div class="page3" id="#clock">
+            <div class="text">
+                <h4>Javascript Clock</h4>
+                <p>A simple design of a dark neuromorphic clock using pure Javascript.</p>
+                <a href="https://github.com/PriyaRaviNavgire.github.io/Dark-neuromorphic-Clock/" class="view" target="_blank">View</a>
+            </div>
+            <img src="./dark clock.png" alt="">
+        </div>
+        <div class="page3" id="pg3">
+            <div class="text" id="second">
+                <h4>Starbucks</h4>
+                <p>Design of Landing page of Starbucks created with little use of JS.</p>
+                <a href="https://PriyaRaviNavgire.github.io/Starbucks-landing-page/" class="view" target="_blank">View</a>
+            </div>
+            <img src="./starbucks.png" id="starbucks" alt="">
+        </div>
+        <div class="page3">
+            <div class="text">
+                <h4>Basic Calculator</h4>
+                <p>A basic calculator made for simple calculations.</p>
+                <a href="https://PriyaRaviNavgire.github.io/Basic-Calculator/" class="view" target="_blank">View</a>
+            </div>
+            <img src="./calculator.png" alt="">
+        </div>
+        <div class="page3" id="pg3">
+            <div class="text">
+                <h4>Mini Projects</h4>
+                <p>Check out some mini projects made for just fun!</p>
+                <a href="https://github.com/PriyaRaviNavgire/Mini-Projects" class="view" target="_blank">View</a>
+            </div>
+            <img src="./Shapes.png" id="mini" alt="">
+        </div>
+
+        <div class="heading2">
+            <h3>Contact Me</h3>
+        </div>
+
+        <div class="page4" id="page4">
+            <form action="#">
+                <div class="form">
+                    <label for="name">Name </label>
+                    <input type="text" placeholder="Enter your name">
+                    <label for="name">Email </label>
+                    <input type="email" placeholder="Enter your email">
+                    <label for="name">Contact </label>
+                    <input type="number" placeholder="Enter your number">
+                    <button><span> Submit</span></button>
+                </div>
+            </form>
+            <div class="lastimg">
+                <img src="./shadow, Yoshimitszu -.jpg" class="floatRight" alt="">
+            </div>
+        </div>
+
+        <div class="footer">
+            <ul>
+                <li>Gmail : priyanavgire5555@gmail.com</li>
+                <li>Contact : 8554016661 </li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typed = new Typed(".auto-type", {
+            strings: ["Priya Navgire ^1000", "a Web Developer ^1000", "an UI/UX Designer ^1000"],
+            typeSpeed: 100,
+            backSpeed: 100,
+            loop: true
+        });
+    </script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    </body>
+    </html>
