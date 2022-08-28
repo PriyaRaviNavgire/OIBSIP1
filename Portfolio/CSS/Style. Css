@@ -1,1 +1,38 @@
-
+body{
+    background-color: rgba(0,255,0,0.2);
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+  h1, #title{
+    text-shadow: 5px 5px 10px grey;
+    text-align: center;
+    font-size: 3em;
+    bottom: 0;
+  }
+  blockquote{
+    top: 0;
+  }
+  img{
+  /*   margin: center; */
+    display: block;
+    margin-left: 10%;
+    margin-right: 10%;
+    max-width: 80%;
+    
+  }
+  #main{
+    font-family: monospace;
+    
+  }
+  div #tribute-info{
+    box-shadow: 20px 20px 15px grey;
+    background-color: rgba(0,0,0,0.2);
+    margin-top: 50px;
+    padding: 20px;
+    text-align: justify;
+  }
+  #title_hedy{
+    text-align: center;
+    color: white;
+    text-shadow: 5px 5px 10px black;
+  }
